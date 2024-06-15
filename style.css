@@ -1,0 +1,94 @@
+/* Type selector */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Class selector */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ID selector */
+#main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Attribute selector */
+a[href^="http"] {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+/* Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sticky header */
+.navbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    z-index: 1000;
+}
+
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container .column {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Floated image */
+.float-image {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+/* Multi-column form */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container .form-group {
+    flex: 1;
+    margin: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
